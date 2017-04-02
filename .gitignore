@@ -1,0 +1,11 @@
+node_modules
+dist/build/*
+npm-debug.log
+.idea/
+.DS_Store
+resource
+note
+*.zip
+*.rar
+*.log
+test
