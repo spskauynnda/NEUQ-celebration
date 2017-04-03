@@ -1,0 +1,142 @@
+@import "../../../node_modules/normalize.css/normalize.css";
+body ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+div,
+p,
+img,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  width: 100%;
+  background-image: url(../images/index_1.jpg);
+}
+.App .topBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+}
+.App .topBar img {
+  width: 1148px;
+  height: 300px;
+}
+.App .topList {
+  background-image: url(../images/redBar.jpg);
+  height: 40px;
+}
+.App .topList ul {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.App .topList ul li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  line-height: 20px ;
+  font-size: 20px;
+}
+.App .main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 3em 2em;
+}
+.App .main .col-1-topNews {
+  width: 400px;
+}
+.App .main .col-2-topNews {
+  width: 400px;
+}
+.App .main .col-3-topNews {
+  width: 400px;
+}
+.App .main td {
+  display: inline-flex;
+  align-content: center;
+  color: #6c6c6c;
+  line-height: 22px;
+  padding-left: 20px;
+}
+.App .main img {
+  display: inline-flex;
+  justify-content: space-around;
+  padding-right: 0.5em;
+}
+.App .main div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+.App .more div {
+  background-color: wheat;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+.App .more div li {
+  width: 200px;
+  text-align: center;
+  padding: 0px 80px;
+  list-style: none;
+}
+.App .more div .rolling-picture1 {
+  margin-top: 0px;
+  height: 430px;
+  width: 100%;
+  background-image: url(../images/1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.App .more div .rolling-picture2 {
+  height: 430px;
+  width: 100%;
+  background-image: url(../images/2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.App .more div .rolling-picture3 {
+  height: 430px;
+  width: 100%;
+  background-image: url(../images/3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.App .more div .rolling-picture4 {
+  height: 430px;
+  width: 100%;
+  background-image: url(../images/4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.App .footer {
+  background-color: #2e2e2e;
+  width: 100%;
+}
+.App .footer div {
+  width: 40%;
+  float: left;
+  padding-left: 10%;
+}
+.App .footer .other-Info {
+  width: 100%;
+}
+.App .footer .other-Info p {
+  padding: 50px;
+}
+.App .footer li {
+  list-style: none;
+  padding: 20px 30px 50px 0px;
+  display: inline-table;
+}
+.App .footer li a {
+  text-decoration: none;
+  color: wheat;
+}

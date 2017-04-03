@@ -1,0 +1,83 @@
+@import "../../../node_modules/normalize.css/normalize.css";
+
+body {
+
+}
+
+div, p {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-image: url(../images/index_1.jpg);
+  height: 100%;
+  .topBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    img {   display: flex;
+      justify-content: center;
+      width: 1148px;
+      height: 300px;
+    }
+  }
+  .nav {
+    div{
+      background-image:url(../images/redBar.jpg) ;
+     height: 25px;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      .nav-item {
+        list-style: none;
+        font-size: 18px;
+        line-height: 18px;
+        p {
+          margin:  60px;
+          display: inline-table;
+          flex-wrap: wrap;
+          color: darkred;
+          font-size: 25px;
+        }
+      }
+    }
+}
+
+.main {
+  margin: 3em 2em;
+  display: flex;
+  justify-content: space-around;
+  .col-1-topNews {
+span{
+  margin-bottom: -10px;
+  img{
+    display: inline-flex;
+    justify-content: space-around;
+padding-right: 0.5em;
+  }
+  p {  display: inline;
+    color: #6c6c6c;
+    line-height: 22px;
+    padding-left: 20px;
+  }
+div{
+  display: inline-flex;
+  justify-content: space-around;
+}
+}
+  }
+
+}
+.more {
+
+}
+
+.footer {
+
+}
+
+}
+
