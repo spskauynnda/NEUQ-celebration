@@ -14,8 +14,7 @@ class AppComponent extends Component {
         this.state = {}
     }
 
-    render = ()=> {
-
+    render(){
         return (
             <div className="App">
                 <div className="topBar">
@@ -23,14 +22,22 @@ class AppComponent extends Component {
                 </div>
 
                 <div className="topList">
-                    <ul>
-                        <li><span>东秦与我</span></li>
+                    <ul className="comwidth">
+                        <li>
+                            <span>东秦与我</span>
+                        </li>
                         <li>
                             <span>校庆动态</span>
                         </li>
-                        <li><span>校友与基金</span></li>
-                        <li><span>教学科研</span></li>
-                        <li><span>创新创业</span></li>
+                        <li>
+                            <span>校友与基金</span>
+                        </li>
+                        <li>
+                            <span>教学科研</span>
+                        </li>
+                        <li>
+                            <span>创新创业</span>
+                        </li>
                     </ul>
                 </div>
 

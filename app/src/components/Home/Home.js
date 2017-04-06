@@ -1,13 +1,12 @@
 /**
  * Created by Rachel on 2017/4/6.
  */
-import React from 'react'
-import './../home.less'
-import topImg from './../images/topImg.png'
-import colNews from './../images/col-news.jpg'
-import colCultural from './../images/col-cultural.jpg'
-import colEvents from './../images/col-events.jpg'
-import colh1    from './../images/col(6).jpg'
+import React , {Component} from 'react'
+import './home.less'
+import colNews from './../../images/col-news.jpg'
+import colCultural from './../../images/col-cultural.jpg'
+import colEvents from './../../images/col-events.jpg'
+import colh1    from './../../images/col(6).jpg'
 class Home extends Component{
     render() {
         return (
